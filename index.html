@@ -3,14 +3,15 @@
 
 <head>
   <title>Nawazish's Portfolio</title>
-  <link rel="icon" href="23c429ea85e272152314d94a09fd2310.png" type="image/png" sizes="20x20">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  
+  <link rel="icon" href="./src/images/favicon.png" type="image/png" sizes="20x20">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link rel="stylesheet" type="text/css" href="d14e07236801860c6cada24031c3caaf.css">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./src/scss/styles.scss">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
@@ -20,7 +21,7 @@
         <div class="background">
         </div>
         <a>
-          <img class="circle" src="994cd0c5078fae85f874b20fc4876401.jpg" alt="Nawazish's Picture">
+          <img class="circle" src="./src/images/nawazish.jpg" alt="Nawazish's Picture">
         </a>
         <a>
           <span class="white-text name">Nawazish Ali</span>
@@ -43,7 +44,7 @@
       <a href="#projects">Projects</a>
     </li>
     <li>
-      <a href="d6bcc995c8f096e363ec05248082426b.html" target="_blank" rel="noopener">Resume</a>
+      <a href="./resume.html" target="_blank" rel="noopener">Resume</a>
     </li>
     <li>
       <a href="#contact">Contact</a>
@@ -93,7 +94,7 @@
 
   <section id="hero">
     <div id="hero-content" class="center-align">
-      <img src="645f1b9c6d09e063fd69bafdd3160c69.svg" alt="Nawazish's Logo'" class="index-1">
+      <img src="./src/images/white-logo.svg" alt="Nawazish's Logo'" class="index-1">
       <h4 class="index-1">Hello, I am Nawazish Ali</h4>
       <h2 class="index-1">A Full Stack Web App Developer</h2>
     </div>
@@ -103,7 +104,7 @@
     <hr class="underline-hr">
     <div class="row">
       <div class="col l4 m12 s12">
-        <img src="994cd0c5078fae85f874b20fc4876401.jpg" alt="Nawazish's Picture'">
+        <img src="./src/images/nawazish.jpg" alt="Nawazish's Picture'">
       </div>
       <p class="col l8 m12 s12">I am Nawazish Ali, An extremely passionate and enthusiastic self taught web application developer from Karachi, Pakistan.
         Currently working as a full time employee at a Javascript consultancy firm in Pakistan. I am also running one of
@@ -137,7 +138,7 @@
     <h5>These are skills and tools I use to make the Web a better place.</h5>
     <div class="row">
       <div v-for="skill in skills" class="col l2 m3 s4" v-html="skill"></div>
-      
+      <!-- <i class="col l2 m3 s4 devicon-html5-plain-wordmark colored"></i>-->
     </div>
   </section>
 
@@ -255,7 +256,7 @@
     </footer>
   </section>
 
-  <script async defer src="6807bb5e55c9589f71d7010bd454d192.js"></script>
+  <script async defer src="./src/js/app.js"></script>
 </body>
 
 </html>
